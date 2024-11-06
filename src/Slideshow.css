@@ -59,3 +59,19 @@
   width: auto;
   border-radius: 0.5rem;
 }
+
+.kernteam-slideshow .utrecht-heading-1,
+.kernteam-slideshow .utrecht-heading-2,
+.kernteam-slideshow .utrecht-heading-3,
+.kernteam-slideshow .utrecht-heading-4,
+.kernteam-slideshow .utrecht-heading-5,
+.kernteam-slideshow
+  .utrecht-heading-6
+  .kernteam-slideshow
+  .utrecht-heading-group {
+  text-wrap: balance;
+}
+
+:root {
+  font-size: 200%;
+}
