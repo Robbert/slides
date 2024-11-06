@@ -3,7 +3,6 @@ import {
   ColumnLayout,
   Document,
   Figure,
-  FigureCaption,
   Heading,
   HeadingGroup,
   Image,
@@ -22,6 +21,7 @@ import { Slideshow } from "./Slideshow";
 import "@nl-design-system-unstable/nlds-design-tokens/src/font.mjs";
 import "./App.css";
 import "./theme.css";
+import { useEffect } from "react";
 
 const Link = ({ ...props }) => {
   const isFragment = (props.href || "").startsWith("#");
@@ -33,7 +33,65 @@ const Link = ({ ...props }) => {
   );
 };
 
+const addSlideIds = () => {
+  const slideshow = document.querySelector(".kernteam-slideshow");
+  if (!slideshow) {
+    return;
+  }
+  const slides = Array.from(slideshow.querySelectorAll(".kernteam-slide"));
+  slides.forEach((el, index) => {
+    if (!el.id) {
+      el.id = `slide-${index + 1}`;
+    }
+  });
+};
+
+const scrollToFragment = () => {
+  const hash = location.hash.replace(/^#/, "");
+  const target = hash ? document.getElementById(hash) : null;
+
+  if (target) {
+    target.scrollIntoView();
+  }
+};
+
+const observeSlideVisibility = () => {
+  const slideshow = document.querySelector(".kernteam-slideshow");
+  if (!slideshow) {
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const slide = entries[0] && entries[0].target;
+      if (slide) {
+        history.pushState({}, "XX", `#${slide.id}`);
+      }
+    },
+    {
+      root: slideshow,
+      rootMargin: "0px",
+      threshold: 1,
+    }
+  );
+
+  const slides = Array.from(slideshow.querySelectorAll(".kernteam-slide"));
+  slides.forEach((el) => observer.observe(el));
+
+  return () => {
+    observer.disconnect();
+  };
+};
+
 function App() {
+  useEffect(() => {
+    setTimeout(addSlideIds, 500);
+
+    setTimeout(scrollToFragment, 750);
+
+    setTimeout(observeSlideVisibility, 1000);
+  }, []);
+
   return (
     <Surface className="nlds-theme nlds-theme--viewport-scale">
       <Document>
