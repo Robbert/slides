@@ -14,6 +14,7 @@
 
   max-inline-size: var(--slides-width);
   max-block-size: var(--slides-height);
+  overflow: hidden;
 
   --utrecht-heading-1-color: currentColor;
   --utrecht-heading-2-color: currentColor;

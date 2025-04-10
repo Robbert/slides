@@ -20,6 +20,7 @@ import { Slide } from "./Slide";
 import { Slideshow } from "./Slideshow";
 import "@nl-design-system-unstable/nlds-design-tokens/src/font.mjs";
 import "./App.css";
+import "./ma-theme.css";
 import "./theme.css";
 // import "./fluid.css";
 import { useEffect } from "react";
@@ -72,7 +73,7 @@ const observeSlideVisibility = () => {
     {
       root: slideshow,
       rootMargin: "0px",
-      threshold: 1,
+      threshold: 0.9,
     }
   );
 
@@ -94,57 +95,55 @@ function App() {
   }, []);
 
   return (
-    <Surface className="nlds-theme nlds-theme--viewport-scale">
+    <Surface className="ma-theme ma-theme--viewport-scale">
       <Document>
         <Slideshow numbered>
           <Slide id="start">
             <HeadingGroup>
-              <Heading level={1}>NL Design System</Heading>
-              <PreHeading>presentatie voor Common Ground</PreHeading>
+              <Heading level={1}>
+                Ensuring quality with a growing design system community
+              </Heading>
+              <PreHeading>
+                presentation for User Needs First Conference 2025
+              </PreHeading>
             </HeadingGroup>
             <Paragraph>
-              door Robbert Broersma
+              by Robbert Broersma
               <br />
-              Design System Lead in het{" "}
-              <Link
-                href="https://nldesignsystem.nl/project/kernteam/"
-                external
-                target="_new"
-              >
-                NL Design System kernteam
+              Design System Lead for{" "}
+              <Link href="https://nldesignsystem.nl/" external target="_new">
+                NL Design System
               </Link>
             </Paragraph>
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={2}>Community</Heading>
-              <PreHeading>
-                het verhaal begint in 2017, met een bottom-up aanpak
-              </PreHeading>
+              <Heading level={2}>The community 🎉</Heading>
+              <PreHeading>the story starts 7½ years ago</PreHeading>
             </HeadingGroup>
             <Figure>
               <Image
                 src="slack-begin.png"
-                alt="Screenshot van Slack: #nl-design-system @Johan Groenen created this channel on October 17th, 2017. This is the very beginning of the nl-design-system channel. Community Management: @Robbert en @Yolijn"
+                alt="Screenshot of Slack: #nl-design-system @Johan Groenen created this channel on October 17th, 2017. This is the very beginning of the nl-design-system channel. Community Management: @Robbert en @Yolijn"
               />
             </Figure>
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Fast-forward naar 2024</Heading>
+              <Heading level={3}>Fast-forward to present day</Heading>
             </HeadingGroup>
             <Figure>
               <Image
                 src="slack-members.png"
-                alt="Screenshot van Slack: 757 leden"
+                alt="Screenshot of Slack: 799 members"
               />
             </Figure>
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
               <Heading level={3}>
-                Helpen om toegankelijk, inclusief en gebruiksvriendelijk
-                ontwikkelen makkelijk te maken.
+                We support developing accessible, inclusive and user friendly
+                services for the government.
               </Heading>
             </HeadingGroup>
           </Slide>
@@ -337,24 +336,136 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={2}>Estafettemodel</Heading>
+              <Heading level={2}>The Relay Model</Heading>
             </HeadingGroup>
             <Figure>
               <Image
                 src="estafettestokje.jpg"
-                alt="Historische foto van een estafette-race"
+                alt="Historical black-and-white photo of a relay race"
               />
             </Figure>
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Nationaal Design System?</Heading>
-              <Paragraph>We hebben samen veel dezelfde uitdagingen.</Paragraph>
+              <Heading level={3}>Government Design System?</Heading>
+              <Paragraph>We share many challenges.</Paragraph>
             </HeadingGroup>
             <Figure>
               <Image
                 src="digitale-uitdaging.jpg"
-                alt="Samen achter de computer, uitdagende dingen oplossen"
+                alt="Historical black-and-white photo: behind the computer, solving challenges together"
+              />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 1: "Help Wanted"</Heading>
+              <Paragraph>We share many challenges.</Paragraph>
+            </HeadingGroup>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 1: "Help Wanted"</Heading>
+              <Paragraph>We share many challenges.</Paragraph>
+              <UnorderedList>
+                <UnorderedListItem>
+                  Desk research and sharing results
+                </UnorderedListItem>
+                <UnorderedListItem>
+                  Allow others to contribute
+                </UnorderedListItem>
+                <UnorderedListItem>
+                  Identify probable next steps after minimum viable product
+                </UnorderedListItem>
+                <UnorderedListItem>
+                  Determine if there are other stakeholders for this
+                  functionality
+                </UnorderedListItem>
+                <UnorderedListItem>
+                  Determine scope for development
+                </UnorderedListItem>
+                <UnorderedListItem>
+                  Determine a name and description
+                </UnorderedListItem>
+                <UnorderedListItem>
+                  Gather likely requirements for a mature component
+                </UnorderedListItem>
+              </UnorderedList>
+            </HeadingGroup>
+          </Slide>
+
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Relay Model documentation</Heading>
+            </HeadingGroup>
+            <Figure>
+              <Image
+                src="nldesignsystem.nl-relay-model.png"
+                alt="Screenshot of the NL Design System website translated to English, showing the Relay Model page"
+              />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Desk Research</Heading>
+              <Paragraph>
+                Start a discussion, when somebody else hasn't yet
+              </Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image
+                src="github-discussions-components.png"
+                alt="Screenshot of GitHub Discussions, showing a list of discussions about Help Wanted components in NL Design System"
+              />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Desk Research</Heading>
+              <Paragraph>
+                Share your findings, using a template and checklist
+              </Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image
+                src="github-discussions-contact-timeline.png"
+                alt="Screenshot of one GitHub Discussion, detail page for Contact Timeline component"
+              />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Allow others to contribute</Heading>
+              <Paragraph>Reply to the discussion, start threads</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image
+                src="github-discussions-thread.png"
+                alt="Screenshot of one GitHub Discussion, with a thread about 'Label' versus 'Form field label' as component name"
+              />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Identify stakeholders</Heading>
+              <Paragraph>Reply to the discussion, start threads</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image
+                src="github-discussions-screenshot.png"
+                alt="Screenshot of one GitHub Discussion, with a screenshot showing how the Language Navigation component is used by the central government"
+              />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Determine the name</Heading>
+              <Paragraph>Communicate with a shared vocabulary</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image
+                src="github-discussions-help-wanted.png"
+                alt="Screenshot of one GitHub Discussion, showing the component has reached the status Help Wanted"
               />
             </Figure>
           </Slide>
@@ -605,7 +716,7 @@ function App() {
           <Slide appearance="title">
             <HeadingGroup>
               <Heading level={3}>
-                Stap 1:
+                {"Stap 1: "}
                 <span lang="en">Help Wanted</span>
               </Heading>
             </HeadingGroup>
