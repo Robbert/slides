@@ -14,7 +14,7 @@
 
   max-inline-size: var(--slides-width);
   max-block-size: var(--slides-height);
-  overflow: hidden;
+  /* overflow: hidden; */
 
   --utrecht-heading-1-color: currentColor;
   --utrecht-heading-2-color: currentColor;
@@ -24,15 +24,19 @@
   --utrecht-heading-6-color: currentColor;
   --utrecht-paragraph-color: currentColor;
 }
-
+/* 
 @media screen and (min-width: 1200px) {
   .kernteam-slideshow {
     grid-auto-flow: column;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
   }
-}
+} */
 
+.kernteam-slide {
+  scale: 0.8;
+  box-shadow: 0 0.5em 1.5em rgb(0 0 0 / 42%);
+}
 .kernteam-slideshow--numbered .kernteam-slide::before {
   content: counter(slides);
   position: absolute;
