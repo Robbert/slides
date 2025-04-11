@@ -476,4 +476,25 @@
   --utrecht-link-active-color: var(--utrecht-focus-color);
 
   --bassis-typography-font-family-default: "Fira Sans";
+  --utrecht-heading-1-font-weight: 800;
+  --utrecht-heading-2-font-weight: 800;
+  --utrecht-heading-3-font-weight: 800;
 }
+/* 
+figure {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+figure img {
+  max-block-size: 100% !important;
+  max-inline-size: 100% !important;
+} */

@@ -150,7 +150,7 @@ function App() {
           <Slide appearance="title">
             <HeadingGroup>
               <Heading level={3}>
-                On-line samenwerken en samenwerkdagen op locatie
+                Collaborating both on-line and in real life
               </Heading>
             </HeadingGroup>
             <Figure>
@@ -162,43 +162,12 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>We bouwen door op elkaars werk</Heading>
+              <Heading level={3}>We build on each others work</Heading>
             </HeadingGroup>
             <Figure>
               <Image
                 src="denhaag-mijn-omgeving-user-test-screenshot.png"
                 alt="Screenshot van Mijn Den Haag in een prototype voor gebruikerstesten"
-              />
-            </Figure>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>
-                We bouwen een design system dat werkt voor meerdere organisaties
-              </Heading>
-            </HeadingGroup>
-            <Figure>
-              <Image
-                src="community-logos.png"
-                alt="Logo's van: gemeente Utrecht, gemeente Den Haag, Rijksdienst voor Ondernemend Nederland en gemeente Amsterdam"
-              />
-            </Figure>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={2}>
-                Wat is nou eigenlijk een design system?
-              </Heading>
-            </HeadingGroup>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>Samenwerken aan een consistent design</Heading>
-            </HeadingGroup>
-            <Figure>
-              <Image
-                src="samenwerkdag.jpg"
-                alt="Designers uit de community werken samen in een vergaderzaal, en ze zwaaien voor de foto"
               />
             </Figure>
           </Slide>
@@ -500,10 +469,10 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>OK, bouwen maar!</Heading>
+              <Heading level={3}>OK, let's build!</Heading>
               <Paragraph>
-                Stabiel, oncontroversiëel, toegankelijk en gebruiksvriendelijk.
-                Makkelijk toch?
+                Stable, uncontroversial, accessible and user friendly. Easy,
+                right?
               </Paragraph>
             </HeadingGroup>
             <Figure>
@@ -551,8 +520,8 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Natuurlijk goed gedocumenteerd</Heading>
-              <Paragraph>het Ultieme Design System</Paragraph>
+              <Heading level={3}>Great documenation, obviously</Heading>
+              <Paragraph>the Ultimate Design System</Paragraph>
             </HeadingGroup>
             <Figure>
               <Image
@@ -563,8 +532,8 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>100% toegankelijk</Heading>
-              <Paragraph>het Ultieme Design System</Paragraph>
+              <Heading level={3}>100% accessible</Heading>
+              <Paragraph>the Ultieme Design System</Paragraph>
             </HeadingGroup>
             <Figure>
               <Image
@@ -575,8 +544,8 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Wat een geweldig plan!</Heading>
-              <Paragraph>precies wat we nodig hebben</Paragraph>
+              <Heading level={3}>This is a great plan!</Heading>
+              <Paragraph>Exactly what we need</Paragraph>
             </HeadingGroup>
             <Figure>
               <Image
@@ -587,8 +556,8 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Experts gaan aan de slag</Heading>
-              <Paragraph>Hard werken aan het ultieme design system</Paragraph>
+              <Heading level={3}>Experts get to work...</Heading>
+              <Paragraph>...building the Ultimate Design System</Paragraph>
             </HeadingGroup>
             <Figure>
               <Image
@@ -607,9 +576,9 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Capaciteit is schaars</Heading>
+              <Heading level={3}>Finding the A-team</Heading>
               <Paragraph>
-                Experts weten hoe het moet, maar vind ze maar eens!
+                Some folks have the experience, but not easy to find them!
               </Paragraph>
             </HeadingGroup>
             <Figure>
@@ -621,7 +590,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Terug naar de tekentafel</Heading>
+              <Heading level={3}>Back to the drawing board</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -632,7 +601,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Niemand wil wachten op innovatie</Heading>
+              <Heading level={3}>Can't wait for innovation</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -643,7 +612,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Protest!</Heading>
+              <Heading level={3}>Protests!</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -654,7 +623,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Decentraal</Heading>
+              <Heading level={3}>Decentralized</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -665,9 +634,9 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Iedereen z'n unieke sneeuwvlok</Heading>
+              <Heading level={3}>Everybody loves snowflakes</Heading>
               <Paragraph>
-                Kleine teams hebben geen tijd voor een ultiem systeem
+                Small teams don't have time for the Ultimate Design System
               </Paragraph>
             </HeadingGroup>
             <Figure>
@@ -679,21 +648,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Iedereen z'n unieke sneeuwvlok</Heading>
-              <Paragraph>
-                Kleine teams hebben geen tijd voor een ultiem systeem
-              </Paragraph>
-            </HeadingGroup>
-            <Figure>
-              <Image
-                src="kunst.jpg"
-                alt="Historische foto van kinderen die schilderen"
-              />
-            </Figure>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>R.I.P. Ultiem Design System</Heading>
+              <Heading level={3}>R.I.P. Ultimate Design System</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -704,7 +659,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={2}>het Estafettemodel</Heading>
+              <Heading level={2}>The Relay Model</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -716,7 +671,7 @@ function App() {
           <Slide appearance="title">
             <HeadingGroup>
               <Heading level={3}>
-                {"Stap 1: "}
+                {"Step 1: "}
                 <span lang="en">Help Wanted</span>
               </Heading>
             </HeadingGroup>
@@ -729,7 +684,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Stap 2: Community</Heading>
+              <Heading level={3}>Step 2: Community</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -740,7 +695,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Stap 3: Kandidaat</Heading>
+              <Heading level={3}>Step 3: Candidate</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -751,9 +706,7 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>
-                Stap 4: <span lang="en">Hall of Fame</span>
-              </Heading>
+              <Heading level={3}>Step 4: Hall of Fame</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -764,8 +717,79 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Goed verhaal joh</Heading>
-              <Paragraph>Maar werkt dit nou echt?</Paragraph>
+              <Heading level={3}>Step 1: Help Wanted</Heading>
+              <Paragraph>GitHub Project Board</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-help-wanted-github.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 1: Help Wanted</Heading>
+              <Paragraph>nldesignsystem.nl</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-help-wanted-checks.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 2: Community</Heading>
+              <Paragraph>GitHub Project Board</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-community-github.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 2: Community</Heading>
+              <Paragraph>nldesignsystem.nl</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-community-checks.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 3: Candidate</Heading>
+              <Paragraph>GitHub Project Board</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-candidate-github.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 3: Candidate</Heading>
+              <Paragraph>nldesignsystem.nl</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-candidate-checks.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 4: Hall of Fame</Heading>
+              <Paragraph>GitHub Project Board</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-hall-of-fame-checks.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Step 4: Hall of Fame</Heading>
+              <Paragraph>nldesignsystem.nl</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="relay-model-hall-of-fame-checks.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Documenting the process</Heading>
             </HeadingGroup>
             <Figure>
               <Image
@@ -784,95 +808,87 @@ function App() {
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Mensen doen mee!</Heading>
+              <Heading level={3}>Community is growing!</Heading>
             </HeadingGroup>
             <UnorderedList>
-              <UnorderedListItem>750+ mensen op Slack</UnorderedListItem>
-              <UnorderedListItem>1000+ op LinkedIn</UnorderedListItem>
-              <UnorderedListItem>100+ op GitHub</UnorderedListItem>
-              <UnorderedListItem>100+ op YouTube</UnorderedListItem>
+              <UnorderedListItem>800+ people on Slack</UnorderedListItem>
+              <UnorderedListItem>1400+ on LinkedIn</UnorderedListItem>
+              <UnorderedListItem>100+ on GitHub</UnorderedListItem>
+              <UnorderedListItem>100+ on YouTube</UnorderedListItem>
               <UnorderedListItem>
-                Design Systems Week met honderden bezoekers
+                Design Systems Week, hunderds of visitors
               </UnorderedListItem>
               <UnorderedListItem>
-                4 jaar lang elke twee weken een heartbeat
+                for over 4 years, every two weaks a Heartbeat session
               </UnorderedListItem>
               <UnorderedListItem>
-                elke week Developer Open Hour
+                every week: Developer Open Hour
               </UnorderedListItem>
               <UnorderedListItem>
-                elke tweede week Design Open Hour
+                every two weeks: Design Open Hour
               </UnorderedListItem>
             </UnorderedList>
           </Slide>
           <Slide appearance="title">
             <HeadingGroup>
-              <Heading level={3}>Hier zijn we trots op</Heading>
-            </HeadingGroup>
-            <UnorderedList>
-              <UnorderedListItem>
-                200+ componenten in de community nog niet geclassificeerd
-              </UnorderedListItem>
-              <UnorderedListItem>
-                36 componenten bij stap 1: Componente
-              </UnorderedListItem>
-              <UnorderedListItem>
-                17 componenten bij stap 2: Community
-              </UnorderedListItem>
-              <UnorderedListItem>
-                10 componenten richting stap 3: Candidate
-              </UnorderedListItem>
-              <UnorderedListItem>Hall of Fame in 2025</UnorderedListItem>
-            </UnorderedList>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>Kernwaarden</Heading>
-            </HeadingGroup>
-            <UnorderedList>
-              <UnorderedListItem>Geen dubbel werk doen</UnorderedListItem>
-              <UnorderedListItem>Iedereen kan meedoen</UnorderedListItem>
-              <UnorderedListItem>Onderbouw je keuzes</UnorderedListItem>
-              <UnorderedListItem>Ben concreet</UnorderedListItem>
-              <UnorderedListItem>
-                Start met de behoeftes van gebruikers
-              </UnorderedListItem>
-              <UnorderedListItem>Positief</UnorderedListItem>
-              <UnorderedListItem>Creëer openheid</UnorderedListItem>
-              <UnorderedListItem>Delen voordat het klaar is</UnorderedListItem>
-              <UnorderedListItem>Maak wat je nu nodig hebt</UnorderedListItem>
-              <UnorderedListItem>Iteratief werken</UnorderedListItem>
-              <UnorderedListItem>Makkelijk in gebruik</UnorderedListItem>
-              <UnorderedListItem>Digitaal meedoen</UnorderedListItem>
-              <UnorderedListItem>Laagdrempelig samenwerken</UnorderedListItem>
-              <UnorderedListItem>Hands-on</UnorderedListItem>
-              <UnorderedListItem>
-                Gevalideerd met eindgebruikers
-              </UnorderedListItem>
-            </UnorderedList>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={2}>Ontwikkelingen in 't afgelopen jaar</Heading>
-            </HeadingGroup>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>denhaag.nl is live</Heading>
-            </HeadingGroup>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>Amsterdam draagt veel bij</Heading>
-            </HeadingGroup>
-          </Slide>
-          <Slide appearance="title">
-            <HeadingGroup>
-              <Heading level={3}>Logius doet mee</Heading>
+              <Heading level={3}>Mailing list</Heading>
               <Paragraph>
-                Hackathon met de teams van DigiD en Mijn Overheid
+                Great reminder for new projects
+                <br />
+                to use the design system
               </Paragraph>
             </HeadingGroup>
+            <Figure>
+              <Image src="design-system-mailing-list.jpg" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>YouTube channel</Heading>
+              <Paragraph>
+                No obligatory meeting, enjoy it from your couch
+                <br />
+                (or from anywhere, with subtitles)
+              </Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="youtube-channel.jpg" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Share design tokens</Heading>
+              <Paragraph>Support teams to use latest brand identity</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="npm-package.jpg" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Design tokens guidance</Heading>
+              <Paragraph>Support teams making design decisions</Paragraph>
+            </HeadingGroup>
+            <Figure>
+              <Image src="amsterdam-design-tokens-docs.png" alt="TODO" />
+            </Figure>
+          </Slide>
+          <Slide appearance="title">
+            <HeadingGroup>
+              <Heading level={3}>Proud of the results so far</Heading>
+            </HeadingGroup>
+            <UnorderedList>
+              <UnorderedListItem>140+ open source components</UnorderedListItem>
+              <UnorderedListItem>
+                53 componenten at Step 1: Help Wanted
+              </UnorderedListItem>
+              <UnorderedListItem>
+                18 componenten at Step 2: Community
+              </UnorderedListItem>
+              <UnorderedListItem>
+                10 componenten at Step 3: Candidate
+              </UnorderedListItem>
+            </UnorderedList>
           </Slide>
           <Slide appearance="title">
             <Figure className="full-screen-image">
